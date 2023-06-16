@@ -3,7 +3,7 @@ class Solution
 public:
     int maxSubArray(vector<int> &nums)
     {
-        int sum = 0, smax = INT_MIN;
+        int sum = 0, smax = nums[0];
         for (int num : nums)
         {
             sum += num;
